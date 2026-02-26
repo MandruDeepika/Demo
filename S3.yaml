@@ -1,5 +1,8 @@
-<<<<<<< HEAD
-Resorces:
-=======
+AWSTemplateFormatVersion: '2010-09-09'
+Description: Basic S3 Bucket Creation
 
->>>>>>> b167e8c4ed2a969e97bde81802a86c83ee04335e
+Resources:
+  MyS3Bucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: deepika-s3-bucket-2026
